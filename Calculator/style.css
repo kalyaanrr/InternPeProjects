@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color:#f0c68f;
+    font-family: sans-serif;
+    outline:none;
+
+}
+
+.container{
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+
+}
+.calculator{
+    background-color: #000000;
+    padding:15px;
+    border-radius:20px;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                      5px  5px 12px rgb(253, 247, 247);
+    display: grid;
+    grid-template-columns: repeat(4,70px);
+    
+
+                      
+}
+input{
+    grid-column:span 4;
+    height : 70px;
+    width: 288px;
+    background-color:rgb(0, 0, 0);
+    font-weight: bolder;
+    box-shadow : -2px -2px 2px #c7d3df,
+                    5px 5px 12px rgba(0,0,0,.16);
+
+    border:none;
+    border-radius:10px;
+    font-size: 30px;
+    text-align: end;
+    margin:0;
+    margin-top:40px;
+    margin-bottom: 30px;
+    padding:11px;
+    color: rgb(255, 255, 255);
+
+                    
+
+
+}
+
+button{
+    background-color: rgb(73, 71, 70);
+    border-radius:60px;
+    border:none;
+    height: 48px;
+    width: 48px;
+    margin:6px;
+    color: #ffffff;
+    font-size: medium;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: bolder;
+    
+
+
+
+}
+
+.symbols{
+    background-color: rgb(250, 101, 1);
+    color: #fdfeff;
+    border:none;
+    font-weight: bolder;
+
+}
+
+.eq{
+    color:white;
+    background-color: rgb(255, 0, 0);
+    grid-column:span 2;
+    width: 120px;
+}
+
+
